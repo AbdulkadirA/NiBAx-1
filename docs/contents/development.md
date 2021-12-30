@@ -1,9 +1,14 @@
-.. helloWorld documentation master file, created by
-   sphinx-quickstart on Fri Jul 17 10:38:59 2020.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
-
-Development
-======================================
+Developer Guide
+===============
 
 **The documentation is under active development.**
+
+## Build documentation locally
+When `sphinx-autobuild` is installed, the documentation can bu built locally
+and automatically updates when one of the source files changes.
+
+```shell
+sphinx-autobuild.exe doc doc/_build/html
+```
+
+The tabbed code blocks require the package `sphinx-tabs`.
