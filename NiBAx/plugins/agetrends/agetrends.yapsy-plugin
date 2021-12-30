@@ -1,0 +1,13 @@
+[Core]
+Name = Age Trends
+Module = ageTrends
+
+[Documentation]
+Author = Ashish Singh
+Version = 0.1
+Website = 
+Description = ageTrends 
+
+[Tab]
+#tab position starts from 0
+Position = 2 

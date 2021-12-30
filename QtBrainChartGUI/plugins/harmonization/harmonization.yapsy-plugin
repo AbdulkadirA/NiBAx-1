@@ -1,9 +1,0 @@
-[Core]
-Name = harmonization
-Module = harmonization
-
-[Documentation]
-Author = Ashish Singh
-Version = 0.1
-Website = 
-Description = harmonization 

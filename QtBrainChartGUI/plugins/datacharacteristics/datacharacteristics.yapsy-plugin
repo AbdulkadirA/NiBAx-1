@@ -1,9 +1,0 @@
-[Core]
-Name = Data Characteristics
-Module = datacharacteristics
-
-[Documentation]
-Author = Ashish Singh
-Version = 0.1
-Website = 
-Description = data characteristics 
