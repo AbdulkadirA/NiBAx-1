@@ -1,0 +1,16 @@
+:py:mod:`NiBAx.plugins.data`
+============================
+
+.. py:module:: NiBAx.plugins.data
+
+
+Submodules
+----------
+.. toctree::
+   :titlesonly:
+   :maxdepth: 1
+
+   data/index.rst
+   dataio/index.rst
+
+

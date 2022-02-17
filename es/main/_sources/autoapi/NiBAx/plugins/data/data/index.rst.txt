@@ -1,0 +1,76 @@
+:py:mod:`NiBAx.plugins.data.data`
+=================================
+
+.. py:module:: NiBAx.plugins.data.data
+
+
+Module Contents
+---------------
+
+Classes
+~~~~~~~
+
+.. autoapisummary::
+
+   NiBAx.plugins.data.data.PandasModel
+   NiBAx.plugins.data.data.Data
+
+
+
+
+Attributes
+~~~~~~~~~~
+
+.. autoapisummary::
+
+   NiBAx.plugins.data.data.logger
+
+
+.. py:data:: logger
+   
+
+   
+
+.. py:class:: PandasModel(data, parent=None)
+
+   Bases: :py:obj:`PyQt5.QtCore.QAbstractTableModel`
+
+   .. py:method:: rowCount(self, parent=None)
+
+
+   .. py:method:: columnCount(self, parent=None)
+
+
+   .. py:method:: headerData(self, section, orientation, role=QtCore.Qt.DisplayRole)
+
+
+   .. py:method:: data(self, index, role=QtCore.Qt.DisplayRole)
+
+
+
+.. py:class:: Data
+
+   Bases: :py:obj:`PyQt5.QtWidgets.QWidget`, :py:obj:`NiBAx.core.baseplugin.BasePlugin`
+
+   .. py:method:: SetupConnections(self)
+
+
+   .. py:method:: OnDtaleBtnClicked(self)
+
+
+   .. py:method:: OnSaveDataBtClicked(self)
+
+
+   .. py:method:: OnOpenDataFileBtnClicked(self)
+
+
+   .. py:method:: PopulateTable(self)
+
+
+   .. py:method:: OnDataChanged(self)
+
+
+   .. py:method:: ReadData(self, filename)
+
+
+
